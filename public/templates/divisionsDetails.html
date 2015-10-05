@@ -1,0 +1,19 @@
+<div id="todoPanel" class="panel">
+    <h3 class="panel-header">{{divisionId}} Division Teams Details</h3>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Team Name</th>
+                <th>Head Coach</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in divisionDtls">
+                <td>{{$index+1}}</td>
+                <td>{{item.teamname}}</td>
+                <td>{{item.headcoach}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
