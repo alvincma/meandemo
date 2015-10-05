@@ -1,0 +1,1 @@
+This is a quick demo on how we build application using MEAN(MongoDB, Express.js, Node.js, Angular.js) stack
